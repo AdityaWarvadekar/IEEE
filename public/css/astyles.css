@@ -1,0 +1,59 @@
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(khet.jpg);
+    background-position:100%;
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    color: #fff;
+}
+
+.sub-header h1{
+    font-size: xx-large;
+    
+   
+}
+
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+
+}
+
+.about-col img{
+    height: 100%;
+    width: 50%;
+    padding: 0 25%;
+}
+
+.about-col h1{
+    padding-top: 0;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.about-col p{
+    padding: 15px 0 25px;
+    text-align: center;
+}
+
+body{
+    background-color: rgb(189, 241, 189);
+}
+
+.row{
+    display: flex;
+}
+.technology{
+    text-align: center;
+}
+

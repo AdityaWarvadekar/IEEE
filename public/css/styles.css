@@ -1,0 +1,75 @@
+/* <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&family=Poppins&family=Press+Start+2P&family=Teko:wght@300;400;500;600&display=swap');
+
+body{
+  background-color: #85e6f2;
+}
+
+.brandName{
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+.searchDiv{
+  width: 70vw;
+  /* height: 20vw; */
+  /* border-radius: 20px; */
+  /* background-color: red; */
+  background: url("/images/sky.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 15vh;
+  margin-bottom: 30vh;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px;
+}
+
+.searchBox{
+  /* margin-top: 10vh; */
+  text-align: center;
+  width: 45vw;
+  /* display: flex; */
+  /* justify-content: space-between; */
+}
+
+/* .gap{
+  width: 3vw;
+} */
+
+.searchBox p{
+  font-family: "Montserrat";
+  font-size: 1.8vw;
+  font-weight: 800;
+}
+
+.searchBox button{
+  font-family: "Poppins";
+  text-align: center;
+}
+
+.weather{
+  display: flex;
+  justify-content: space-around;
+  width: 90vw;
+  margin: auto;
+}
+
+.day{
+  width: 15vw;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+.footer{
+  height: 30vh;
+  background-color: #282a35;
+  font-family: "Montserrat";
+  font-weight: 600;
+  color: white;
+  text-align: center;
+  font-size: 1.3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
